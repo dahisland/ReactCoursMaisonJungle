@@ -1,0 +1,82 @@
+.cart_style {
+  position: relative;
+  background: #31b472;
+  width: 22%;
+  min-width: 200px;
+  height: fit-content;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 3px 5px 8px grey;
+}
+
+.cart_style h2 {
+  margin: 0;
+  padding: 0;
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.cart_style ul {
+  margin-top: 10px;
+}
+
+.cart_style p {
+  font-weight: bold;
+}
+
+.cart_content {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modify_quantity {
+  font-size: 12px;
+  font-weight: bold;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  border: none;
+  border-radius: 3px;
+  background-color: bisque;
+}
+
+.modify_quantity:hover {
+  cursor: pointer;
+  background-color: gold;
+}
+
+.deploy_cart {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  color: #31b472;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+}
+.deploy_cart:hover {
+  cursor: pointer;
+  box-shadow: 1px 3px 5px grey;
+}
+.reset_cart {
+  border: none;
+  background-color: white;
+  color: #31b472;
+  border-radius: 10px;
+  padding: 5px 15px;
+  width: 130px;
+}
+
+.reset_cart:hover {
+  cursor: pointer;
+  box-shadow: 1px 3px 5px grey;
+  font-weight: bold;
+}

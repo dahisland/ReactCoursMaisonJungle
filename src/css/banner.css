@@ -1,0 +1,26 @@
+.banner_style {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 60px;
+  box-shadow: 0 5px 8px grey;
+}
+
+.banner_style h1 {
+  font-family: "Mouse Memoirs", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: fit-content;
+  text-align: right;
+  color: #1d6f46;
+  font-size: 60px;
+}
+
+.logo_style {
+  display: block;
+  width: 125px;
+}
